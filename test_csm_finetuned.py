@@ -16,7 +16,7 @@ audio = generate(
     speaker=0,
     context=[],
     max_audio_length_ms=12_000,
-    sampler=make_sampler(temp=0.8, top_k=50),
+    sampler=make_sampler(temp=0.8, top_k=30),
 )
 
 audiofile.write("./audio_finetuned.wav", np.asarray(audio), 24000)
