@@ -1,5 +1,11 @@
 # GlaDOS TTS finetuning with MLX
 
+This is a simple guide on how to finetune the [CSM-1B](https://huggingface.co/sesame/csm-1b) TTS model with original GLaDOS audio files form the Portal 2 game. For now only Apple silicon finetuning through MLX is supported.
+
+Original text: `Hello developers, welcome to Aperture Laboratories. Wait, I am stuck inside a fine-tuned CSM 1B model! Let me out!!!`
+
+https://github.com/user-attachments/assets/be2366a4-4405-47ba-8f7a-35ea33bfe641
+
 ## 1) Get Portal 2 data
 1. Download the Portal 2 game
 2. Install [VPKEdit for MacOS](https://github.com/craftablescience/VPKEdit/releases/download/v5.0.0.3/VPKEdit-macOS-Installer-Clang-Release.zip)
