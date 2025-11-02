@@ -1,0 +1,6 @@
+resources/
+.venv/
+finetune_output/
+models/
+.DS_Store
+*.wav
