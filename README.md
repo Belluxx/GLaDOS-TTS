@@ -4,7 +4,13 @@ This is a simple guide on how to finetune the [CSM-1B](https://huggingface.co/se
 
 Original text: `Hello developers, welcome to Aperture Laboratories. Wait, I am stuck inside a fine-tuned CSM 1B model! Let me out!!!`
 
+1 epoch model:
+
 https://github.com/user-attachments/assets/be2366a4-4405-47ba-8f7a-35ea33bfe641
+
+10 epochs model:
+
+https://github.com/user-attachments/assets/caa20d37-0468-4726-a8eb-9c85fb6139ac
 
 ## 1) Get Portal 2 data
 1. Download the Portal 2 game
